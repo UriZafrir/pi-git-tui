@@ -1,0 +1,28 @@
+{
+  "name": "@urizafrir/pi-git-tui",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Git operations with TUI interface",
+  "keywords": [
+    "pi-package",
+    "pi-extension",
+    "git",
+    "tui"
+  ],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "pi": {
+    "extensions": ["./src/index.ts"]
+  },
+  "scripts": {
+    "typecheck": "tsc -p tsconfig.json --noEmit"
+  },
+  "devDependencies": {
+    "@earendil-works/pi-coding-agent": "^0.80.0",
+    "@earendil-works/pi-tui": "^0.80.0",
+    "@types/node": "^22.0.0",
+    "typescript": "^5.9.3"
+  }
+}
