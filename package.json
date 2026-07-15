@@ -7,7 +7,13 @@
     "pi-package",
     "pi-extension",
     "git",
-    "tui"
+    "tui",
+    "git-status",
+    "git-stage",
+    "git-commit",
+    "git-push",
+    "diff-viewer",
+    "file-browser"
   ],
   "license": "MIT",
   "engines": {
